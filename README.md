@@ -45,6 +45,7 @@ run the following commands to clone and start the project on http://localhost:80
 * didn't have enough time to read through the many scss bootstrap includes so I probably could have used some of those instead of making new styles 
 * instead of scaling large logo svg to 80% I would compress the path data to be the correct size to 2 decimal places etc.
 * using `.content-right` class as the darker backround rows in the mockup since they happen to line up - should probably make `.content-shade` it's own class?
-
+* given more time I would turn the email subscribe form into a reusable component with style overrides
+* 
 
 ----

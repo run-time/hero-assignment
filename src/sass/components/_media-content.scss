@@ -16,6 +16,10 @@
     order: 2;
   }
 
+  &.content-right {
+    background: #f6f6f6;
+  }
+
   &.text-center {
     .row {
       justify-content: center;

@@ -31,18 +31,18 @@ run the following commands to clone and start the project on http://localhost:80
 ----    
 
 ## Design Considerations
+* try and match the branding of main site -- https://konghq.com/products/api-gateway-platform
+* follow naming conventions of UTM parameters here -- https://en.wikipedia.org/wiki/UTM_parameters
 * 
-*
 
 ## Assumptions
-* it should look and feel similar to this page -- https://konghq.com/products/api-gateway-platform
 * primary button is prominent (dark blue background and white text)
 * secondary buttons are less prominent (white background and blue text with thin border)
-* 
+* mock-up does not indicate a button hover transition state (choose one at random / ask UX later)
 * 
 
 ## Trade-Offs
-* 
+* didn't have enough time to read through the many scss bootstrap includes so I probably could have used some of those instead of making new styles 
 * 
 
 

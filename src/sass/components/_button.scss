@@ -1,0 +1,51 @@
+@mixin btn-base {
+    background: transparent;
+    border: 1px solid transparent;
+    padding: 10px 1rem;
+    margin: 1rem;
+    margin-left: 0;
+    min-width: 150px;
+    cursor: pointer;
+
+    a {
+      text-decoration: none;
+    }
+
+    &:hover {
+      transition: .2s ease-in-out;
+      box-shadow: 0 0.5em 0.5em -0.4em rgba(0,0,0,0.6);
+      transform: scale(1.04);
+    }
+}
+  
+.btn-primary {
+  @include btn-base;
+  background: $primary;
+  a {
+    color: $white;
+  }
+}
+
+  
+.btn-secondary {
+  @include btn-base;
+  background: $white;
+  border-color: $primary;
+  a {
+    color: $primary;
+  }
+  &:first-child:hover {
+    background: $white;
+    border-color: $primary;
+    a {
+      color: $primary;
+    }
+  }
+}
+
+.btn-outline-success {
+    background: $white;
+    border-color: $primary;
+    color: $primary;
+    padding: 0.4rem 2rem;
+}

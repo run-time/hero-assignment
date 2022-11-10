@@ -15,6 +15,9 @@
       transition: .2s ease-in-out;
       box-shadow: 0 0.5em 0.5em -0.4em rgba(0,0,0,0.6);
       transform: scale(1.04);
+      a {
+        text-decoration: none;
+      }
     }
 }
   

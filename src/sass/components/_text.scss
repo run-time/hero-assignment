@@ -1,0 +1,28 @@
+@mixin text-base {
+    font-family: $font-family-sans-serif;
+    text-rendering: geometricPrecision;
+    -webkit-font-smoothing: antialiased;
+    margin: 1rem 0;
+    color: rgb(0,0,0);
+  }
+  
+  .text-title {
+    @include text-base;
+    font-size: 53px;
+    font-weight: bolder;
+    line-height: 1.15;
+  }
+  
+  .text-subtitle {
+    @include text-base;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+    color: rgba(0,0,0,0.85);
+  }
+  
+  .text-lead {
+    @include text-base;
+    font-size: 17px;
+    color: rgba(0,0,0,0.85);
+  }

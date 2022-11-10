@@ -1,5 +1,7 @@
 <h1 align="center">hero-assignment</h1>
 
+### Published Demo • https://davealger.com/kong/
+
 ### Requirements
 * Based on the pdf/png that is included in the provided project zip file make the following changes.
   - Updated hero section

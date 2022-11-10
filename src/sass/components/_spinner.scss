@@ -1,0 +1,187 @@
+.accordion-button {
+    &:after {
+        margin-left: 0;
+    }
+}
+
+.footer-copyright {
+    margin: 0 auto;
+}
+
+
+.kong-spin {
+    margin: 0 auto;
+    height: 300px;
+    width: 300px;
+    pointer-events: none;
+    margin-top: 2rem;
+  }
+  
+  .kong-spin-head {
+    fill: transparent;
+    stroke: transparent;
+    stroke-width: 4px;
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 0;
+    -webkit-animation: kong_spin_head 6s infinite;
+    -moz-animation: kong_spin_head 6s infinite;
+    animation: kong_spin_head 6s infinite;
+    -webkit-animation-delay: 1.5s;
+    -moz-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+  }
+  
+  @keyframes kong_spin_head {
+    0% {
+      stroke-dashoffset: 1000;
+      fill: transparent;
+      stroke: #dadada;
+    }
+    20% {
+      stroke-dashoffset: 0;
+      fill: transparent;
+    }
+    30% {
+      stroke: #1bc263;
+      fill: #1bc263;
+    }
+    40% {
+      fill: #1bc263;
+    }
+    50% {
+      stroke: transparent;
+    }
+    60% {
+      fill: #1bc263;
+    }
+    100% {
+      fill: transparent;
+    }
+  }
+  
+  .kong-spin-leg {
+    fill: transparent;
+    stroke: transparent;
+    stroke-width: 4px;
+    stroke-dasharray: 800;
+    stroke-dashoffset: 0;
+    -webkit-animation: kong_spin_leg 6s infinite;
+    -moz-animation: kong_spin_leg 6s infinite;
+    animation: kong_spin_leg 6s infinite;
+    -webkit-animation-delay: 0.5s;
+    -moz-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+  }
+  
+  @keyframes kong_spin_leg {
+    0% {
+      stroke-dashoffset: 800;
+      fill: transparent;
+      stroke: #dadada;
+    }
+    20% {
+      stroke-dashoffset: 0;
+      fill: transparent;
+    }
+    30% {
+      stroke: #16bdcc;
+      fill: #16bdcc;
+    }
+    40% {
+      fill: #16bdcc;
+    }
+    50% {
+      stroke: transparent;
+    }
+    60% {
+      fill: #16bdcc;
+    }
+    100% {
+      fill: transparent;
+    }
+  }
+  
+  .kong-spin-arm {
+    fill: transparent;
+    stroke: transparent;
+    stroke-width: 4px;
+    stroke-dasharray: 800;
+    stroke-dashoffset: 0;
+    -webkit-animation: kong_spin_arm 6s infinite;
+    -moz-animation: kong_spin_arm 6s infinite;
+    animation: kong_spin_arm 6s infinite;
+    -webkit-animation-delay: 1.0s;
+    -moz-animation-delay: 1.0s;
+    animation-delay: 1.0s;
+  }
+  
+  @keyframes kong_spin_arm {
+    0% {
+      stroke-dashoffset: 800;
+      fill: transparent;
+      stroke: #dadada;
+    }
+    20% {
+      stroke-dashoffset: 0;
+      fill: transparent;
+    }
+    30% {
+      stroke: #14b59a;
+      fill: #14b59a;
+    }
+    40% {
+      fill: #14b59a;
+    }
+    50% {
+      stroke: transparent;
+    }
+    60% {
+      fill: #14b59a;
+    }
+    100% {
+      fill: transparent;
+    }
+  }
+  
+  .kong-spin-foot {
+    fill: transparent;
+    stroke: transparent;
+    stroke-width: 4px;
+    stroke-dasharray: 400;
+    stroke-dashoffset: 0;
+    -webkit-animation: kong_spin_foot 6s infinite;
+    -moz-animation: kong_spin_foot 6s infinite;
+    animation: kong_spin_foot 6s infinite;
+    -webkit-animation-delay: 0s;
+    -moz-animation-delay: 0s;
+    animation-delay: 0s;
+  }
+  
+  @keyframes kong_spin_foot {
+    0% {
+      stroke-dashoffset: 400;
+      fill: transparent;
+      stroke: #dadada;
+    }
+    20% {
+      stroke-dashoffset: 0;
+      fill: transparent;
+    }
+    30% {
+      stroke: #169fcc;
+      fill: #169fcc;
+    }
+    40% {
+      fill: #169fcc;
+    }
+    50% {
+      stroke: transparent;
+    }
+    60% {
+      fill: #169fcc;
+    }
+    100% {
+      fill: transparent;
+    }
+  }
+  

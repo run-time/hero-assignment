@@ -1,0 +1,60 @@
+.page-footer {
+    border-top: 2px solid #efefef;
+
+    .container {
+        margin: 2rem auto;
+    }
+
+    .text-uppercase {
+        color: #7c91b3;
+        font-size: 14px;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+        margin: 1.6rem 0;
+    }
+
+    .with-blurb {
+        margin-bottom: 0.4rem;
+    }
+
+    .text-normal {
+        color: rgba(0,0,0,0.8);
+        font-size: 14px;
+    }
+
+    .list-unstyled {
+        li {
+            margin: 0.6rem 0;
+            a {
+                color: #47608c;
+            }
+        }
+    }
+
+    .footer-subscribe {
+        margin: 2rem 0;
+        button, input {
+            border-radius: 3px;
+        }
+        
+    }
+
+    .footer-form-left {
+        padding-right: 2rem;
+    }
+}
+
+
+.footer-copyright {
+    color: #808080;
+}
+
+.bg-hire {
+    margin: 0 6px; 
+    padding: 4px 12px; 
+    font-size: 13px; 
+    font-weight: 100; 
+    letter-spacing: 1px; 
+    background:#d9e7ff !important;
+    color: #2056cb !important; 
+}

@@ -20,10 +20,10 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Products</a>
+                    <a class="nav-link" aria-current="page" href="#">Products</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Open Source</a>
+                    <a class="nav-link active" href="#">Open Source</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">Solutions</a>
@@ -245,76 +245,178 @@
     </main>
     <!-- Footer -->
     <footer class="page-footer font-small blue pt-4">
-
-        <!-- Footer Links -->
-        <div class="container text-center text-md-left">
-
-            <!-- Grid row -->
+        <div class="container">
             <div class="row">
-
-                <!-- Grid column -->
-                <div class="col-md-6 mt-md-0 mt-3">
-
-                    <!-- Content -->
-                    <h5 class="text-uppercase">Footer Content</h5>
-                    <p>Here you can use rows and columns to organize your footer content.</p>
-
+                <div class="col-md-4 mt-md-0 mt-3">
+                    <div class="col-12 pt-2x footer-form-left">
+                        <img width="32%" height="32%" src="./assets/logo-kong-dark.svg" alt="Kong Logo" loading="lazy">
+                        <h5 class="text-uppercase with-blurb">THE CLOUD CONNECTIVITY COMPANY</h5>
+                    <p class="text-normal">Kong powers reliable digital connections across APIs, hybrid and multi-cloud environments.</p>
+                    <div class="row">
+                        <div class="col-12 footer-subscribe">
+                            <form class="newsletter-signup d-flex" action="./" method="post" novalidate="novalidate" data-status="init">
+                                <input class="form-control me-2" type="email" name="email" placeholder="Email" aria-label="Search">
+                                <input type="hidden" name="utm_source" id="utm_source" value="konghq">
+                                   <input type="hidden" name="utm_medium" id="utm_medium" value="email">
+                                   <input type="hidden" name="utm_campaign" id="utm_campaign" value="newsletter">
+                                   <input type="hidden" name="utm_content" id="utm_content" value="me@davealger.com">
+                                <input type="hidden" name="utm_term" id="utm_term" value="2022">
+                                <button class="btn btn-outline-success" type="submit">Subscribe</button>
+                            </form>
+                        </div>
+                    </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-5">
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#!">Company</a>
+                                </li>
+                                <li>
+                                    <a href="#!">Customers</a>
+                                </li>
+                                <li>
+                                    <a href="#!">Events</a>
+                                </li>
+                                <li>
+                                    <a href="#!">Investors</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-7">
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#!">Careers</a> <span class="badge rounded-pill bg-info text-dark bg-hire">HIRING!</span>
+                                </li>
+                                <li>
+                                    <a href="#!">Partners</a>
+                                </li>
+                                <li>
+                                    <a href="#!">Press</a>
+                                </li>
+                                <li>
+                                    <a href="#!">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-                <!-- Grid column -->
-
-                <hr class="clearfix w-100 d-md-none pb-3">
-
-                <!-- Grid column -->
-                <div class="col-md-3 mb-md-0 mb-3">
-
-                    <!-- Links -->
-                    <h5 class="text-uppercase">Links</h5>
+                <div class="col-md-2 mb-md-0 mb-3">
+                    <h5 class="text-uppercase">Products</h5>
                     <ul class="list-unstyled">
                         <li>
-                            <a href="#!">Link 1</a>
+                            <a href="#!">Why Kong?</a>
                         </li>
                         <li>
-                            <a href="#!">Link 2</a>
+                            <a href="#!">Kong Enterprise</a>
                         </li>
                         <li>
-                            <a href="#!">Link 3</a>
+                            <a href="#!">Kong Konnect</a>
                         </li>
                         <li>
-                            <a href="#!">Link 4</a>
+                            <a href="#!">Kong Mesh</a>
+                        </li>
+                        <li>
+                            <a href="#!">Kong Insomnia</a>
+                        </li>
+                        <li>
+                            <a href="#!">Pricing</a>
                         </li>
                     </ul>
                 </div>
-                <!-- Grid column -->
-                <!-- Grid column -->
-                <div class="col-md-3 mb-md-0 mb-3">
-                    <!-- Links -->
-                    <h5 class="text-uppercase">Links</h5>
+                <div class="col-md-2 mb-md-0 mb-3">
+                    <h5 class="text-uppercase">Resources</h5>
                     <ul class="list-unstyled">
                         <li>
-                            <a href="#!">Link 1</a>
+                            <a href="#!">eBooks</a>
                         </li>
                         <li>
-                            <a href="#!">Link 2</a>
+                            <a href="#!">Webinars</a>
                         </li>
                         <li>
-                            <a href="#!">Link 3</a>
+                            <a href="#!">Briefs</a>
                         </li>
                         <li>
-                            <a href="#!">Link 4</a>
+                            <a href="#!">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#!">API Gateway</a>
+                        </li>
+                        <li>
+                            <a href="#!">Microservices</a>
                         </li>
                     </ul>
                 </div>
-                <!-- Grid column -->
+                <div class="col-md-2 mb-md-0 mb-3">
+                    <h5 class="text-uppercase">Open Source</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!">Install Kong Gateway</a>
+                        </li>
+                        <li>
+                            <a href="#!">Kong Community</a>
+                        </li>
+                        <li>
+                            <a href="#!">Kubernetes Ingress</a>
+                        </li>
+                        <li>
+                            <a href="#!">Kuma</a>
+                        </li>
+                        <li>
+                            <a href="#!">Insomnia</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-2 mb-md-0 mb-3">
+                    <h5 class="text-uppercase">Solutions</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!">Decentralize</a>
+                        </li>
+                        <li>
+                            <a href="#!">Secure &amp; Govern</a>
+                        </li>
+                        <li>
+                            <a href="#!">Create a Dev Platform</a>
+                        </li>
+                        <li>
+                            <a href="#!">API Gateway</a>
+                        </li>
+                        <li>
+                            <a href="#!">Kubernetes</a>
+                        </li>
+                        <li>
+                            <a href="#!">Service Mesh</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <!-- Grid row -->
         </div>
-        <!-- Footer Links -->
-        <!-- Copyright -->
-        <div class="footer-copyright text-center py-3">© 2020 Copyright: <a href="https://konghq.com"> KongHQ.com</a>
-        </div>
-        <!-- Copyright -->
     </footer>
-    <!-- Footer -->
+    <div class="accordion" id="kongSpinner">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="kongIsKing">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <div class="footer-copyright">© 2022 Copyright:  <a href="https://konghq.com">KongHQ.com</a></div>
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <div class="kong-spin">
+                    <svg viewBox="0 0 360 360" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+                      <g fill="none" fill-rule="evenodd">
+                        <path class="kong-spin-head" fill="#1bc263" d="m168 62 15-27 44-35 75 59-10 10 13 18v19l-37 30-62-74z" />
+                        <path class="kong-spin-leg" fill="#16bdcc" d="m53 179h20l51-43 68 79-19 29h-63l-43 55-10 13h-56v-68z" />
+                        <path class="kong-spin-arm" fill="#14b59a" d="m131 124 30-52h35l158 184-12 56h-68l4-16z" />
+                        <path class="kong-spin-foot" fill="#169fcc" d="m112 267 8-11h63l33 42-6 14h-81l2-14z" />
+                      </g>
+                    </svg>
+                  </div>
+            </div>
+          </div>
+        </div>
+      </div>
 </body>
 
 </html>

@@ -44,7 +44,6 @@
     }
 }
 
-
 .footer-copyright {
     color: #7c91b3;
     margin: 0 auto;
@@ -60,4 +59,38 @@
     letter-spacing: 1px; 
     background:#d9e7ff !important;
     color: #2056cb !important; 
+}
+
+
+// temporary badges for showing media breakpoints
+.footer-device {
+    text-align: center;
+}
+
+.footer-device-laptop {
+    display: none;
+}
+.footer-device-tablet {
+    display: none;
+}
+.footer-device-phone {
+    display: none;
+}
+
+@include laptop {
+    .footer-device-laptop {
+        display: inline-block;
+    }
+}
+
+@include tablet {
+    .footer-device-tablet {
+        display: inline-block;
+    }
+}
+
+@include phone {
+    .footer-device-phone {
+        display: inline-block;
+    }
 }

@@ -8,9 +8,30 @@ jQuery(function ($) {
     e.preventDefault();
     let formData = new FormData(e.currentTarget);
 
-    submitViaAjax(formData);
+    if (formData.get("email") === "") {
+      // do nothing when no email is input (clear querystring)
+      window.history.replaceState({}, '', location.pathname);
+    } else {
+      // validate email and submit form etc.
+      submitViaAjax(formData);
+      parseQueryParams(formData);
+    }
   });
 });
+
+
+function parseQueryParams(formData) {
+  const params = new URLSearchParams(location.search);
+
+  formData.forEach(function (value, key) {
+    if (key.toLowerCase().startsWith("utm_")) {
+      params.set(key, value);
+    }
+  });
+
+  window.history.replaceState({}, '', `${location.pathname}?${params.toString()}`);
+}
+
 
 // this is a mock ajax call
 function submitViaAjax(formData) {

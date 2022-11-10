@@ -35,14 +35,20 @@
                     <a class="nav-link" href="#">Company</a>
                   </li>
                 </ul>
-                <form class="newsletter-signup d-flex">
+                <form class="newsletter-signup d-flex" action="./" method="post" novalidate="novalidate" data-status="init">
                   <input class="form-control me-2" type="email" name="email" placeholder="Email" aria-label="Search">
+                  <input type="hidden" name="utm_source" id="utm_source" value="konghq">
+   	              <input type="hidden" name="utm_medium" id="utm_medium" value="email">
+   	              <input type="hidden" name="utm_campaign" id="utm_campaign" value="newsletter">
+   	              <input type="hidden" name="utm_content" id="utm_content" value="me@davealger.com">
+	              <input type="hidden" name="utm_term" id="utm_term" value="2022">
                   <button class="btn btn-outline-success" type="submit">Subscribe</button>
                 </form>
               </div>
             </div>
           </nav>
     </header>
+
     <main>
         <section class="component hero">
             <div class="container">

@@ -4,6 +4,7 @@
     padding: 10px 1rem;
     margin: 1rem;
     margin-left: 0;
+    min-width: 150px;
     cursor: pointer;
 
     a {
@@ -28,13 +29,13 @@
   
 .btn-secondary {
   @include btn-base;
-  background: transparent;
+  background: $white;
   border-color: $primary;
   a {
     color: $primary;
   }
   &:first-child:hover {
-    background: transparent;
+    background: $white;
     border-color: $primary;
     a {
       color: $primary;
@@ -42,7 +43,9 @@
   }
 }
 
-  
-.btn-link {
-  @include btn-base;
+.btn-outline-success {
+    background: $white;
+    border-color: $primary;
+    color: $primary;
+    padding: 0.4rem 2rem;
 }
